@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"	
+>
+      
+   <TextView android:layout_width="match_parent"
+   	android:layout_height="wrap_content"
+   	android:id="@+id/header_tip"
+   	android:gravity="center"
+   	android:textSize="24dp"
+   	android:text="@string/header_tip_hint"
+   	android:layout_alignParentLeft="true"
+   />
+   	
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+     	>
+    
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/current_task_date"
+			android:textSize="16dp"
+			android:textColor="#a0a0a0"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="4dp"
+		/>
+	   	
+	   	<TextView android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:id="@+id/current_task_time"
+	   		android:textSize="16dp"
+	   		android:textColor="#a0a0a0"
+	   		android:layout_toRightOf="@id/current_task_date"
+			android:layout_marginLeft="8dp"
+	   	/>
+	   	
+	   	</RelativeLayout>
+   	
+	<TextView android:layout_width="match_parent"
+		android:layout_height="0.5dip"
+		android:background="#a0a0a0"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginBottom="1dp"
+	/>
+   	
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<TextView android:layout_width="match_parent"
+   		android:layout_height="76dp"
+   		android:id="@+id/current_job_actual"
+   		android:gravity="center"
+   		android:textSize="32dp"
+   		android:padding="4dp"
+   		android:textColor="#a0a0a0"
+   		android:text="现在在做什么..."
+   		android:background="@null"
+   	/>
+   	
+   
+   	<TextView android:layout_width="match_parent"
+		android:layout_height="0.5dip"
+		android:background="#a0a0a0"
+	/>
+	 
+</LinearLayout>

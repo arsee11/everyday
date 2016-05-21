@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <FrameLayout android:id="@+id/activity_lock_header"
+		android:layout_width="match_parent"
+   	  	android:layout_height="96dp"  
+ 	/>
+ 	
+ 	<FrameLayout android:id="@+id/activity_lock_current"
+		android:layout_width="match_parent"
+		android:layout_below = "@id/activity_lock_header"
+   	 	android:layout_height="wrap_content"
+   	 	
+   	/>
+   	<FrameLayout android:id="@+id/activity_lock_time_show"
+		android:layout_width="match_parent"
+		android:layout_below = "@id/activity_lock_current"
+   	 	android:layout_height="wrap_content"
+   	 	
+   	/>
+   	<FrameLayout android:id="@+id/activity_lock_taskshow"
+		android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+   	 	android:layout_below = "@id/activity_lock_time_show"
+   	/>
+   	
+
+   	
+   	 <Button android:id="@+id/lock_unlock_button"
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentBottom = "true"
+	    	android:layout_centerHorizontal="true"
+	      	android:text = "确定"
+	    />
+
+</RelativeLayout>
